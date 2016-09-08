@@ -1,0 +1,17 @@
+1.安装nodejs
+
+2.安装cordova npm install -g cordova
+
+3.安装jdk,配置环境变量
+
+4.安装 android sdk ，配置环境变量
+
+	ANDROID_HOME: 路径
+	Path最后添加  ;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools
+
+
+5.cordova 检测
+
+	1.cordova create CordovaProject io.cordova.hellocordova CordovaApp
+	2.cordova platform add android
+	3.cordova run android
